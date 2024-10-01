@@ -47,7 +47,7 @@ const Form = () => {
           <div className="flex flex-col w-1/2 items-center">
             <label
               htmlFor="topText"
-              className="text-sm font-medium self-start ml-6 hidden md:flex"
+              className="text-sm font-bold self-start ml-6 hidden md:flex text-[#8597aa]"
             >
               Top Text
             </label>
@@ -57,21 +57,21 @@ const Form = () => {
               value={text1}
               onChange={(e) => setText1(e.target.value)}
               placeholder="topText"
-              className="border border-gray-600 w-3/4 rounded-md h-10 bg-white p-2 placeholder:text-black text-black text-sm focus:outline-none"
+              className="border border-gray-600 w-3/4 rounded-md h-10 bg-[#232f3d] p-2 placeholder:text-black text-black text-sm focus:outline-none"
             />
           </div>
           <div className="">
-            <img src="/src/Components/Tobi.png" 
+            <img src="/src/assets/Tobi.png" 
             alt=""
             width={80}
             height={80}
-            style={{ background: "navajowhite", borderRadius: "50%", border: "2px solid white" }}
+            style={{ background: "navajowhite", borderRadius: "50%", border: "2px solid #425160" }}
             />
             </div>
           <div className="flex flex-col w-1/2 items-center">
             <label
               htmlFor="bottomText"
-              className="text-sm font-medium self-start ml-6 hidden md:flex"
+              className="text-sm font-bold self-start ml-6 hidden md:flex text-[#8597aa]"
             >
               Bottom Text
             </label>
@@ -81,12 +81,12 @@ const Form = () => {
               value={text2}
               onChange={(e) => setText2(e.target.value)}
               placeholder="bottomText"
-              className="border border-gray-600 w-3/4 rounded-md h-10 bg-white p-2 placeholder:text-black text-black text-sm placeholder:text-sm focus:outline-none"
+              className="border border-gray-600 w-3/4 rounded-md h-10 p-2 placeholder:text-black text-black text-sm placeholder:text-sm focus:outline-none bg-[#232f3d]"
             />
           </div>
         </div>
         <div className="flex w-full justify-center items-center mt-8">
-          <button className="w-3/4 bg-violet-800 h-10 text-white rounded-lg">
+          <button className="w-3/4 bg-[#0061aa] h-10 text-white rounded-lg">
             Generate
           </button>
         </div>
@@ -114,7 +114,7 @@ const Form = () => {
 
       {meme && (
         <button
-          className="mt-4 bg-green-600 text-white py-2 px-4 rounded-lg"
+          className="mt-4 bg-[#0061aa] text-white py-2 px-4 rounded-lg"
           onClick={handleDownload} // Download functionality
         >
           Download Meme

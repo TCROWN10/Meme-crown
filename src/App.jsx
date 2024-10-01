@@ -6,7 +6,7 @@ import AnimatedHeading from "./Components/Animation";
 
 const App = () => {
   return (
-    <div className="bg-[rgb(205,77,164)] h-[100vh] overflow-auto p-4">
+    <div className="bg-[#0b111a] h-[100vh] overflow-auto p-4">
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

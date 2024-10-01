@@ -9,7 +9,7 @@ const AnimatedHeading = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}
        >
-        <h2 className="text-3xl font-bold animate-scale my-10 text-[rgb(20,110,245)]">
+        <h2 className="text-3xl font-bold animate-scale my-10 text-[#0061aa]">
          Tcrown
         </h2>
         </motion.div>
