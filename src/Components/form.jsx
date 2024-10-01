@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import html2canvas from "html2canvas";
+import Image1 from '../assets/Tobi.png'
 
 const Form = () => {
   const [text1, setText1] = useState("");
@@ -61,7 +62,8 @@ const Form = () => {
             />
           </div>
           <div className="">
-            <img src="/src/assets/Tobi.png" 
+            <img
+            src={Image1}  // Replace with your own image
             alt=""
             width={80}
             height={80}
